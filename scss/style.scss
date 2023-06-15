@@ -77,6 +77,12 @@ body {
             textarea,input{
             border: double black 3px; 
             }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        button{
+            margin-top: 20px;
+        }
     }
     a{
         text-decoration: none;

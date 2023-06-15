@@ -117,9 +117,15 @@ body main {
 body form {
   font-size: larger;
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 body form textarea, body form input {
   border: double black 3px;
+}
+body form button {
+  margin-top: 20px;
 }
 body a {
   text-decoration: none;
